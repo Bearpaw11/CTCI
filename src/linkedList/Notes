@@ -1,0 +1,14 @@
+Big O for Linked List
+
+Append O(1)
+Remove Last O(n)
+Prepend O(1)
+Remove First O(1)
+Insert O(n)
+Remove O(n)
+Lookup By index O(n)
+Lookup by value O(n)
+
+
+
+
