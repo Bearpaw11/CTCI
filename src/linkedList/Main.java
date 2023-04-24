@@ -28,22 +28,30 @@ public class Main {
 //		newList.printList();
 //
 //		newList.insert(2,500000);
-		newList.printList();
+//		newList.printList();
+//		System.out.println();
+//		newList.remove(2);
+//		newList.printList();
+//		System.out.println();
+//		newList.reverse();
+//		newList.printList();
+//		
+//		hasLoopAlgo newlists = new hasLoopAlgo(99);
+//		System.out.println(newlists.hasLoop());
+		
+		
+		
+		
+		removeDuplicateUsingSet hasDuplicate = new removeDuplicateUsingSet(99);
+		hasDuplicate.append(55);
+		hasDuplicate.append(85);
+		hasDuplicate.append(5);
+		hasDuplicate.append(55);
+		hasDuplicate.printAll();
 		System.out.println();
-		newList.remove(2);
-		newList.printList();
-		System.out.println();
-		newList.reverse();
-		newList.printList();
-		
-		hasLoopAlgo newlists = new hasLoopAlgo(99);
-		System.out.println(newlists.hasLoop());
-		
-		
-		
-		
-	
-		
+		hasDuplicate.removeDuplicates();
+		hasDuplicate.printAll();
+		System.out.println(hasDuplicate.getTail().value);
 		
 		
 		
