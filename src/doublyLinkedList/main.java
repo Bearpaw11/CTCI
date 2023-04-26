@@ -37,12 +37,20 @@ public class main {
 //		System.out.println();
 //		doubleList.printList();
 		
-		reverserDoublyLinkedList newDouble = new reverserDoublyLinkedList(5);
+//		reverserDoublyLinkedList newDouble = new reverserDoublyLinkedList(5);
 //		newDouble.append(77);
 //		newDouble.append(99);
 //		newDouble.append(888);
 //		newDouble.printList();
-		newDouble.reverse();
-		newDouble.printList();
+//		newDouble.reverse();
+//		newDouble.printList();
+		
+		
+		isPalindrome newCheck = new isPalindrome(5);
+		
+		newCheck.append(4);
+		newCheck.append(4);
+		System.out.println(newCheck.isPalindrome());
+		
 	}
 }
