@@ -1,0 +1,7 @@
+First in First out
+
+Enqueue = add to back of line
+dequeue = remove from front of the line
+
+
+If using a linked list, you do not want to dequeue on the end with a null pointer at this would be O(n)
