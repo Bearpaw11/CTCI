@@ -1,0 +1,21 @@
+Node points to left and right
+Only pointing the 2 ways makes it a binary tree
+
+
+Full tree is when every node points to 2 nodes or zero nodes
+A perfect Tree is when the bottom layer are all filed with nodes
+Complete tree is when a tree id full from left to right with no gaps 
+
+Top Node is the parent node, the nodes the parent is point to is are the child nodes.  The child nodes on the same level are called siblings
+A node that does not have any children is called a leaf. 
+
+Always start at the top. If the value is > you go to the lest. If it smaller you go to the left. 
+All node to the left will be smaller and all nodes to the right will be bigger
+
+Big O
+
+Find , Add  delete are all O(log n) = this assumes that the tree is full; 
+lookup =O (log n)
+insert = O(log n)
+removes = O(log n)
+
