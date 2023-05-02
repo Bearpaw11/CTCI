@@ -19,3 +19,4 @@ lookup =O (log n)
 insert = O(log n)
 removes = O(log n)
 
+You cannot insert a duplicate value
